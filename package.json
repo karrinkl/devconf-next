@@ -1,0 +1,25 @@
+{
+  "name": "devconf-next",
+  "version": "4.0.0",
+  "private": true,
+  "description": "Лабораторная работа № 25. Перенос лендинга IT-конференции DEVCONF 2026 на Next.js: SSR для /schedule, SSG для /speakers и /speakers/[id]",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "engines": {
+    "node": ">=20.9"
+  },
+  "dependencies": {
+    "@fontsource/inter": "^5.3.0",
+    "@reduxjs/toolkit": "^2.5.0",
+    "bootstrap": "^5.3.3",
+    "next": "^16.4.3",
+    "prop-types": "^15.8.1",
+    "react": "^19.2.0",
+    "react-bootstrap": "^2.10.6",
+    "react-dom": "^19.2.0",
+    "react-redux": "^9.2.0"
+  }
+}
